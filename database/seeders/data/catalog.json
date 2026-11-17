@@ -1,0 +1,2495 @@
+{
+  "_meta": {
+    "generated_from": "krisal-handicraft-frontend/src/data (mockProducts.ts, categories.ts, mockCollections.ts)",
+    "base_currency": "USD",
+    "counts": {
+      "categories": 8,
+      "collections": 17,
+      "products": 41
+    },
+    "notes": [
+      "sort_order for products is the original array order ('featured' sort).",
+      "image values are filenames; the files are in images/ next to this JSON.",
+      "stock_quantity is the frontend stockCount; source_stock_status is the original frontend status, for verification only."
+    ],
+    "unseeded_etsy_sections": [
+      {
+        "name": "HANDLE BOWL",
+        "slug": "handle-bowl",
+        "count": 5
+      }
+    ]
+  },
+  "categories": [
+    {
+      "slug": "chakra-set",
+      "name": "Chakra Sets",
+      "description": "Matched 7-chakra singing bowl sets tuned CDEFGAB for full-spectrum sound healing and meditation.",
+      "etsy_count": 11,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "slug": "full-moon-bowl",
+      "name": "Full Moon Bowls",
+      "description": "Traditional Nepalese Full Moon singing bowls crafted for deep resonance and pure sustain.",
+      "etsy_count": 9,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "slug": "gong",
+      "name": "Himalayan Gongs",
+      "description": "Handcrafted nipple gongs, sacred geometry gongs, Tree of Life gongs, and deity-carved Chao gongs.",
+      "etsy_count": 17,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "slug": "special-hand-carving",
+      "name": "Hand-Carved Bowls",
+      "description": "Intricately hand-engraved bowls featuring Buddha feet, Yogi, Tree of Life, and sacred mantra motifs.",
+      "etsy_count": 22,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "slug": "special-laser-carving",
+      "name": "Laser-Carved & Thangka",
+      "description": "Precision-engraved Sahasrabhuja Avalokiteshvara and hand-painted Tibetan Thangka art bowls.",
+      "etsy_count": 28,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "slug": "antique-item",
+      "name": "Antique & Vintage Bowls",
+      "description": "Vintage Jam Bati, Cobre Bati, Naga Stand, and antique black singing bowls.",
+      "etsy_count": 7,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "slug": "black-bowl",
+      "name": "Black & Therapy Bowls",
+      "description": "Oxidized black bowls, knee therapy bowls, Tiger Eye bowls, Dim bowls, and Ultabati instruments.",
+      "etsy_count": 10,
+      "sort_order": 7,
+      "is_active": true
+    },
+    {
+      "slug": "tingsha",
+      "name": "Tingsha, Bells & Wheels",
+      "description": "Tibetan mantra tingsha cymbals, ritual bells, and handcrafted wall-hanging prayer wheels.",
+      "etsy_count": 14,
+      "sort_order": 8,
+      "is_active": true
+    }
+  ],
+  "collections": [
+    {
+      "slug": "chakra-set",
+      "name": "Chakra Sets",
+      "description": "Full Moon & 7-chakra singing bowl sets tuned to CDEFGAB notes for sound therapy and practitioner work.",
+      "image": "chakra_bowl_set_1794811479723.jpg",
+      "etsy_count": 11,
+      "is_featured": true,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "slug": "full-moon-bowl",
+      "name": "Full Moon Bowls",
+      "description": "Traditional Nepalese Full Moon bowls hand-hammered under full moon rituals for pure, deep sustain.",
+      "image": "hero_singing_bowl_1794811478741.jpg",
+      "etsy_count": 9,
+      "is_featured": true,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "slug": "gong",
+      "name": "Himalayan Gongs",
+      "description": "Handcrafted nipple gongs with free stands, Sacred Geometry gongs, Tree of Life gongs, and Chao gongs.",
+      "image": "himalayan_gong_1794811480154.jpg",
+      "etsy_count": 17,
+      "is_featured": true,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "slug": "special-hand-carving",
+      "name": "Hand-Carved Bowls",
+      "description": "Extra-large 20-inch Buddha Feet, Yogi mantra, Tree of Life, and Double Chalice artisan carved bowls.",
+      "image": "carved_buddha_bowl_1794811479865.jpg",
+      "etsy_count": 22,
+      "is_featured": true,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "slug": "black-bowl",
+      "name": "Black & Therapy Bowls",
+      "description": "Oxidized black bowls with golden rims, Tiger Eye bowls, Ultabati, and Knee Therapy healing bowls.",
+      "image": "black_singing_bowl_1794811481399.jpg",
+      "etsy_count": 2,
+      "is_featured": true,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "slug": "tingsha",
+      "name": "Tingsha, Bells & Prayer Wheels",
+      "description": "Tibetan mantra tingsha cymbals and handcrafted 6-inch & 8-inch wall-hanging Buddhist prayer wheels.",
+      "image": "prayer_wheel_tingsha_1794811481045.jpg",
+      "etsy_count": 6,
+      "is_featured": true,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "slug": "therapy-bowl",
+      "name": "THERAPY BOWL",
+      "description": null,
+      "image": null,
+      "etsy_count": 3,
+      "is_featured": false,
+      "sort_order": 103,
+      "is_active": true
+    },
+    {
+      "slug": "available-set",
+      "name": "AVAILABLE SET",
+      "description": null,
+      "image": null,
+      "etsy_count": 6,
+      "is_featured": false,
+      "sort_order": 104,
+      "is_active": true
+    },
+    {
+      "slug": "tiger-eye-bowl",
+      "name": "TIGER EYE BOWL",
+      "description": null,
+      "image": null,
+      "etsy_count": 2,
+      "is_featured": false,
+      "sort_order": 106,
+      "is_active": true
+    },
+    {
+      "slug": "antique-item",
+      "name": "ANTIQUE ITEM",
+      "description": null,
+      "image": null,
+      "etsy_count": 7,
+      "is_featured": false,
+      "sort_order": 107,
+      "is_active": true
+    },
+    {
+      "slug": "bell",
+      "name": "BELL",
+      "description": null,
+      "image": null,
+      "etsy_count": 8,
+      "is_featured": false,
+      "sort_order": 110,
+      "is_active": true
+    },
+    {
+      "slug": "dim-bowl",
+      "name": "DIM BOWL",
+      "description": null,
+      "image": null,
+      "etsy_count": 2,
+      "is_featured": false,
+      "sort_order": 111,
+      "is_active": true
+    },
+    {
+      "slug": "special-laser-carving",
+      "name": "SPECIAL LASER CARVING",
+      "description": null,
+      "image": null,
+      "etsy_count": 24,
+      "is_featured": false,
+      "sort_order": 112,
+      "is_active": true
+    },
+    {
+      "slug": "thangka-bowl",
+      "name": "THANGKA BOWL",
+      "description": null,
+      "image": null,
+      "etsy_count": 4,
+      "is_featured": false,
+      "sort_order": 113,
+      "is_active": true
+    },
+    {
+      "slug": "thangka",
+      "name": "THANGKA",
+      "description": null,
+      "image": null,
+      "etsy_count": 3,
+      "is_featured": false,
+      "sort_order": 114,
+      "is_active": true
+    },
+    {
+      "slug": "explore-our-collection",
+      "name": "EXPLORE OUR COLLECTION",
+      "description": null,
+      "image": null,
+      "etsy_count": 7,
+      "is_featured": false,
+      "sort_order": 115,
+      "is_active": true
+    },
+    {
+      "slug": "ultapati-bowl",
+      "name": "ULTAPATI BOWL",
+      "description": null,
+      "image": null,
+      "etsy_count": 1,
+      "is_featured": false,
+      "sort_order": 116,
+      "is_active": true
+    }
+  ],
+  "products": [
+    {
+      "public_id": "4491026831",
+      "slug": "full-moon-chakra-singing-bowl-set-tuned-cdefgab",
+      "name": "Full Moon Chakra Singing Bowl Set – Tuned CDEFGAB, Handmade Nepal Meditation Healing",
+      "etsy_listing_id": "4491026831",
+      "etsy_url": "https://www.etsy.com/listing/4491026831/full-moon-chakra-singing-bowl-set-tuned",
+      "category_slug": "chakra-set",
+      "price": 902.99,
+      "compare_at_price": 1289.99,
+      "rating": 4.9,
+      "review_count": 12,
+      "short_description": "Complete 7-bowl Full Moon Chakra singing bowl set precision-tuned to CDEFGAB notes, handcrafted in Kathmandu under the full moon.",
+      "description": "Hand-hammered by Nepalese master artisans under full moon conditions using seven sacred metals. Each of the seven bowls is carefully matched and tuned to the C, D, E, F, G, A, B musical scale corresponding to all seven chakras. Includes cushioned silk rings and handcrafted suede-wrapped wooden mallets.",
+      "stock_quantity": 5,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 1,
+      "primary_image": "chakra_bowl_set_1794811479723.jpg",
+      "images": [
+        "chakra_bowl_set_1794811479723.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Full Moon Bronze Patina",
+          "hex": "#A87C4F"
+        },
+        {
+          "name": "Antique Brushed Gold",
+          "hex": "#D49A56"
+        }
+      ],
+      "sizes": [
+        "Complete 7-Bowl Set (4–9 inch)"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Tuning",
+          "value": "Tuned CDEFGAB (432Hz / 440Hz Harmonic Set)"
+        },
+        {
+          "label": "Composition",
+          "value": "Traditional Seven-Metal Himalayan Bronze"
+        },
+        {
+          "label": "Set Includes",
+          "value": "7 Singing Bowls, 7 Silk Cushions, Mallets & Strikers"
+        },
+        {
+          "label": "Shipping",
+          "value": "Free Worldwide Delivery"
+        }
+      ],
+      "collection_slugs": [
+        "chakra-set",
+        "full-moon-bowl"
+      ]
+    },
+    {
+      "public_id": "4484682087",
+      "slug": "20-inch-buddha-feet-carved-singing-bowl-extra-large",
+      "name": "20 Inch Buddha Feet Carved Singing Bowl | Extra Large Meditation Sound Healing Instrument",
+      "etsy_listing_id": "4484682087",
+      "etsy_url": "https://www.etsy.com/listing/4484682087/20-inch-buddha-feet-carved-singing-bowl",
+      "category_slug": "special-hand-carving",
+      "price": 1476.99,
+      "compare_at_price": 2109.99,
+      "rating": 5,
+      "review_count": 8,
+      "short_description": "Monumental 20-inch masterwork hand-carved with sacred Buddha Feet & Tibetan mantras for deep standing-in sound baths.",
+      "description": "An extraordinary 20-inch extra-large temple singing bowl wide enough for standing sound immersion therapy. Inside the basin rests finely chiseled Buddha Feet iconography surrounded by auspicious Buddhist symbols and outer Om Mani Padme Hum script, producing profound low-frequency bass overtones.",
+      "stock_quantity": 2,
+      "source_stock_status": "low_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 2,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Antique Temple Bronze",
+          "hex": "#8A663B"
+        }
+      ],
+      "sizes": [
+        "20 Inch Master Bowl"
+      ],
+      "specifications": [
+        {
+          "label": "Diameter",
+          "value": "20 Inches (approx. 50 cm)"
+        },
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Craftsmanship",
+          "value": "Hand-Hammered & Chisel-Carved"
+        },
+        {
+          "label": "Acoustics",
+          "value": "Ultra-Deep Grounding Bass Resonance"
+        },
+        {
+          "label": "Includes",
+          "value": "Heavy Felt Drum Mallet & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "special-hand-carving",
+        "therapy-bowl"
+      ]
+    },
+    {
+      "public_id": "4436072514",
+      "slug": "handcrafted-double-chalice-tibetan-singing-bowl-set",
+      "name": "Handcrafted Double Chalice Tibetan Singing Bowl Set | Authentic Nepal Meditation Bowl",
+      "etsy_listing_id": "4436072514",
+      "etsy_url": "https://www.etsy.com/listing/4436072514/handcrafted-double-chalice-tibetan-singing",
+      "category_slug": "special-hand-carving",
+      "price": 245,
+      "compare_at_price": 350,
+      "rating": 4.8,
+      "review_count": 6,
+      "short_description": "Authentic Double Chalice sacred geometry carving on a hand-hammered Nepalese meditation bowl with striker.",
+      "description": "Handcrafted in Kathmandu featuring refined Double Chalice engravings symbolizing harmonic balance and spiritual receptivity. Designed for daily mindfulness, altar display, and clear harmonic meditation tones.",
+      "stock_quantity": 9,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 3,
+      "primary_image": "hero_singing_bowl_1794811478741.jpg",
+      "images": [
+        "hero_singing_bowl_1794811478741.jpg",
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Warm Hammered Bronze",
+          "hex": "#B5884E"
+        }
+      ],
+      "sizes": [
+        "6 Inch",
+        "7 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Engraving",
+          "value": "Hand-Carved Double Chalice Motif"
+        },
+        {
+          "label": "Material",
+          "value": "Bell Metal Bronze Alloy"
+        },
+        {
+          "label": "Includes",
+          "value": "Wooden Striker & Cushion Ring"
+        }
+      ],
+      "collection_slugs": [
+        "special-hand-carving",
+        "available-set"
+      ]
+    },
+    {
+      "public_id": "4531295301",
+      "slug": "tiger-eye-singing-bowl-from-nepal",
+      "name": "Tiger Eye Singing Bowl from Nepal | Handcrafted Meditation & Sound Healing Bowl",
+      "etsy_listing_id": "4531295301",
+      "etsy_url": "https://www.etsy.com/listing/4531295301/tiger-eye-singing-bowl-from-nepal",
+      "category_slug": "black-bowl",
+      "price": 130.19,
+      "compare_at_price": 185.99,
+      "rating": 4.8,
+      "review_count": 7,
+      "short_description": "Distinctive Tiger Eye mineral-toned artisan bowl with warm golden-amber bands and resonant clarity.",
+      "description": "Named for its luminous warm amber and dark mineral striations reminiscent of Tiger Eye gemstone. Compact, balanced in the palm, and responsive to both rim-singing and gentle striking for yoga and chakra focus.",
+      "stock_quantity": 11,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 4,
+      "primary_image": "black_singing_bowl_1794811481399.jpg",
+      "images": [
+        "black_singing_bowl_1794811481399.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Tiger Eye Amber",
+          "hex": "#B46927"
+        }
+      ],
+      "sizes": [
+        "5 Inch",
+        "6 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Section",
+          "value": "Tiger Eye Bowl"
+        },
+        {
+          "label": "Finish",
+          "value": "Warm Amber & Obsidian Tiger Patina"
+        },
+        {
+          "label": "Includes",
+          "value": "Suede Mallet & Ring Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "black-bowl",
+        "tiger-eye-bowl"
+      ]
+    },
+    {
+      "public_id": "4537825316",
+      "slug": "9-inch-special-antique-hand-carved-singing-bowl",
+      "name": "9 inch Special Antique Hand-Carved Singing Bowl | Handcrafted Nepalese Meditation & Chakra Healing Bowl",
+      "etsy_listing_id": "4537825316",
+      "etsy_url": "https://www.etsy.com/listing/4537825316/9-inch-special-antique-hand-carved",
+      "category_slug": "special-hand-carving",
+      "price": 616,
+      "compare_at_price": 880,
+      "rating": 4.9,
+      "review_count": 5,
+      "short_description": "9-inch heirloom-grade antique finish bowl richly hand-carved by Kathmandu artisans for long harmonic sustain.",
+      "description": "A substantial 9-inch antique hand-carved singing bowl displaying intricate Nepalese sacred carvings around its exterior and interior medallion. Delivers rich, multi-layered overtones ideal for holistic therapists and experienced practitioners.",
+      "stock_quantity": 4,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 5,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Aged Antique Bronze",
+          "hex": "#7C5D38"
+        }
+      ],
+      "sizes": [
+        "9 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Diameter",
+          "value": "9 Inches (22.8 cm)"
+        },
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Finish",
+          "value": "Special Antique Hand-Carving"
+        },
+        {
+          "label": "Includes",
+          "value": "Felt Mallet, Leather Striker & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "special-hand-carving",
+        "antique-item"
+      ]
+    },
+    {
+      "public_id": "4617773978",
+      "slug": "seven-chakra-yogi-carved-tibetan-singing-bowl",
+      "name": "Seven Chakra Yogi Carved Tibetan Singing Bowl | Buddhist Meditation & Sound Healing Bowl",
+      "etsy_listing_id": "4617773978",
+      "etsy_url": "https://www.etsy.com/listing/4617773978/seven-chakra-yogi-carved-tibetan-singing",
+      "category_slug": "special-hand-carving",
+      "price": 196,
+      "compare_at_price": 280,
+      "rating": 4.9,
+      "review_count": 9,
+      "short_description": "Meditation bowl engraved with seated Yogi iconography and the seven chakra symbols for focused energy alignment.",
+      "description": "Hand-carved in Nepal with a meditating Yogi centerpiece and seven chakra emblems encircled by sacred Tibetan calligraphy. Produces a clear, uplifting tone suited to pranayama, yoga studios, and personal altar practice.",
+      "stock_quantity": 8,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 6,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg",
+        "chakra_bowl_set_1794811479723.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Burnished Antique Gold",
+          "hex": "#B98744"
+        }
+      ],
+      "sizes": [
+        "6.5 Inch",
+        "7.5 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Motif",
+          "value": "Seven Chakra & Meditating Yogi"
+        },
+        {
+          "label": "Material",
+          "value": "Traditional Bronze Alloy"
+        },
+        {
+          "label": "Includes",
+          "value": "Wooden Striker & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "special-hand-carving",
+        "chakra-set"
+      ]
+    },
+    {
+      "public_id": "4530314147",
+      "slug": "golden-border-full-moon-singing-bowl-chocolate-brown",
+      "name": "Golden Border Full Moon Singing Bowl | Chocolate Brown Finish | Meditation & Sound Healing Bowl",
+      "etsy_listing_id": "4530314147",
+      "etsy_url": "https://www.etsy.com/listing/4530314147/golden-border-full-moon-singing-bowl",
+      "category_slug": "full-moon-bowl",
+      "price": 171.5,
+      "compare_at_price": 245,
+      "rating": 4.9,
+      "review_count": 6,
+      "short_description": "Full Moon singing bowl finished in deep chocolate-bronze patina accented by a hand-burnished golden rim.",
+      "description": "Crafted under the full moon in Kathmandu with a refined dark chocolate brown exterior and luminous brushed golden rim. Offers balanced resonance and clean overtone stability for meditation and therapeutic work.",
+      "stock_quantity": 7,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 7,
+      "primary_image": "hero_singing_bowl_1794811478741.jpg",
+      "images": [
+        "hero_singing_bowl_1794811478741.jpg",
+        "black_singing_bowl_1794811481399.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Chocolate Bronze & Gold",
+          "hex": "#5A3D28"
+        }
+      ],
+      "sizes": [
+        "6 Inch",
+        "7 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Finish",
+          "value": "Chocolate Brown with Golden Border"
+        },
+        {
+          "label": "Craft",
+          "value": "Full Moon Ritual Hammered"
+        },
+        {
+          "label": "Includes",
+          "value": "Mallet & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "full-moon-bowl"
+      ]
+    },
+    {
+      "public_id": "4529739357",
+      "slug": "handcrafted-nipple-gong-with-free-stand-antique-black",
+      "name": "Handcrafted Nipple Gong with FREE Stand Included, Antique Black Meditation Gong, Sound Healing Instrument, Buddhist Temple Gong",
+      "etsy_listing_id": "4529739357",
+      "etsy_url": "https://www.etsy.com/listing/4529739357/handcrafted-nipple-gong-with-free-stand",
+      "category_slug": "gong",
+      "price": 896,
+      "compare_at_price": 1280,
+      "rating": 5,
+      "review_count": 5,
+      "short_description": "Master-hammered antique black temple nipple gong with glowing raised center boss and complimentary wooden stand.",
+      "description": "Forged from resonant Nepalese bronze and finished in deep antique black with a polished golden center boss (nipple). Ships complete with a handcrafted wooden display stand and padded gong mallet for immersive sound baths and temple ceremonies.",
+      "stock_quantity": 4,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 8,
+      "primary_image": "himalayan_gong_1794811480154.jpg",
+      "images": [
+        "himalayan_gong_1794811480154.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Antique Black & Golden Boss",
+          "hex": "#23201D"
+        }
+      ],
+      "sizes": [
+        "50 cm with Stand",
+        "65 cm with Stand"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Type",
+          "value": "Buddhist Temple Nipple Gong"
+        },
+        {
+          "label": "Stand",
+          "value": "Complimentary Hardwood Stand Included"
+        },
+        {
+          "label": "Mallet",
+          "value": "Heavy Padded Gong Mallet Included"
+        }
+      ],
+      "collection_slugs": [
+        "gong",
+        "antique-item"
+      ]
+    },
+    {
+      "public_id": "4536083995",
+      "slug": "antique-naga-stand-singing-bowl-sacred-sound-therapy",
+      "name": "Antique Naga Stand Singing Bowl | Sacred Sound Therapy | Meditation & Healing Bowl",
+      "etsy_listing_id": "4536083995",
+      "etsy_url": "https://www.etsy.com/listing/4536083995/antique-naga-stand-singing-bowl-sacred",
+      "category_slug": "antique-item",
+      "price": 406,
+      "compare_at_price": 580,
+      "rating": 4.9,
+      "review_count": 4,
+      "short_description": "Antique-patina Naga Stand singing bowl forged for deep sacred sound therapy and ceremonial altar placement.",
+      "description": "Traditional Naga Stand silhouette with heavy base stability and warm aged patina. Produces an earthy, centering sustain prized by sound healers and collectors of Nepalese metalwork.",
+      "stock_quantity": 3,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 9,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Antique Bronze",
+          "hex": "#7A5E3A"
+        }
+      ],
+      "sizes": [
+        "8 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Style",
+          "value": "Antique Naga Stand Bowl"
+        },
+        {
+          "label": "Patina",
+          "value": "Heirloom Aged Bronze"
+        },
+        {
+          "label": "Includes",
+          "value": "Felt Striker & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "antique-item",
+        "therapy-bowl"
+      ]
+    },
+    {
+      "public_id": "4491032171",
+      "slug": "seven-chakra-singing-bowl-set-tuned-cdefgab",
+      "name": "Seven Chakra Singing Bowl Set – Tuned CDEFGAB, Handmade Nepal Meditation Healing",
+      "etsy_listing_id": "4491032171",
+      "etsy_url": "https://www.etsy.com/listing/4491032171/seven-chakra-singing-bowl-set-tuned",
+      "category_slug": "chakra-set",
+      "price": 881.99,
+      "compare_at_price": 1259.99,
+      "rating": 5,
+      "review_count": 11,
+      "short_description": "Collector-verified 7-chakra CDEFGAB handmade set praised for packaging, sustain, and harmonic purity.",
+      "description": "Precision-matched seven chakra singing bowl ensemble handcrafted in Nepal. Each bowl resonates cleanly in the CDEFGAB scale for chakra balancing sessions, group sound baths, and clinical sound therapy.",
+      "stock_quantity": 6,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 10,
+      "primary_image": "chakra_bowl_set_1794811479723.jpg",
+      "images": [
+        "chakra_bowl_set_1794811479723.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Hammered Natural Bronze",
+          "hex": "#9D7344"
+        }
+      ],
+      "sizes": [
+        "7-Bowl Practitioner Set"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Tuning",
+          "value": "C - D - E - F - G - A - B Complete Octave"
+        },
+        {
+          "label": "Includes",
+          "value": "7 Bowls, Cushions, Mallets & Strikers"
+        },
+        {
+          "label": "Shipping",
+          "value": "Free Worldwide Delivery"
+        }
+      ],
+      "collection_slugs": [
+        "chakra-set",
+        "available-set"
+      ]
+    },
+    {
+      "public_id": "4535761931",
+      "slug": "tree-of-life-flower-gong-sacred-geometry-40-100cm",
+      "name": "Tree of Life Flower Gong – Sacred Geometry Meditation Sound Healing (40–100cm)",
+      "etsy_listing_id": "4535761931",
+      "etsy_url": "https://www.etsy.com/listing/4535761931/tree-of-life-flower-gong-sacred-geometry",
+      "category_slug": "gong",
+      "price": 616,
+      "compare_at_price": 880,
+      "rating": 4.9,
+      "review_count": 4,
+      "short_description": "Hand-engraved Tree of Life & Flower of Life sacred geometry gong available from 40cm to 100cm studio sizes.",
+      "description": "Combining fine Nepalese engraving with expansive acoustic bloom. Features the Tree of Life woven into sacred Flower of Life geometry, creating rich shimmering harmonics across meditation halls.",
+      "stock_quantity": 5,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 11,
+      "primary_image": "himalayan_gong_1794811480154.jpg",
+      "images": [
+        "himalayan_gong_1794811480154.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Burnished Brass & Dark Bronze",
+          "hex": "#8F6A3B"
+        }
+      ],
+      "sizes": [
+        "40 cm",
+        "60 cm",
+        "80 cm",
+        "100 cm"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Sizes Available",
+          "value": "40 cm to 100 cm Diameter"
+        },
+        {
+          "label": "Engraving",
+          "value": "Tree of Life & Sacred Geometry"
+        },
+        {
+          "label": "Includes",
+          "value": "Felt Gong Mallet & Hanging Cord"
+        }
+      ],
+      "collection_slugs": [
+        "gong"
+      ]
+    },
+    {
+      "public_id": "4535110951",
+      "slug": "machine-made-small-singing-bowl-set-sound-healing",
+      "name": "Machine-made Small Singing Bowl Set | Sound Healing & Meditation",
+      "etsy_listing_id": "4535110951",
+      "etsy_url": "https://www.etsy.com/listing/4535110951/machine-made-small-singing-bowl-set-sound",
+      "category_slug": "chakra-set",
+      "price": 371,
+      "compare_at_price": 530,
+      "rating": 4.7,
+      "review_count": 5,
+      "short_description": "Compact, travel-friendly small singing bowl set offering crisp high harmonics for chakra meditation.",
+      "description": "Uniformly spun small-format singing bowl set crafted for clarity, portability, and accessible chakra work. Ideal for personal practice, travel sound therapy, and yoga instruction.",
+      "stock_quantity": 10,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 12,
+      "primary_image": "chakra_bowl_set_1794811479723.jpg",
+      "images": [
+        "chakra_bowl_set_1794811479723.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Bright Brushed Brass",
+          "hex": "#C9974C"
+        }
+      ],
+      "sizes": [
+        "Small 7-Bowl Set"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Construction",
+          "value": "Precision Machine-Spun Bronze"
+        },
+        {
+          "label": "Portability",
+          "value": "Compact Travel-Ready Sizes"
+        },
+        {
+          "label": "Includes",
+          "value": "Cushions & Strikers"
+        }
+      ],
+      "collection_slugs": [
+        "chakra-set",
+        "available-set"
+      ]
+    },
+    {
+      "public_id": "4535118154",
+      "slug": "well-tuned-7-chakra-singing-bowl-set-octave-4-and-5",
+      "name": "Well Tuned 7 Chakra Singing Bowl Set | Octave 4 and 5 | Sound Healing & Meditation",
+      "etsy_listing_id": "4535118154",
+      "etsy_url": "https://www.etsy.com/listing/4535118154/well-tuned-7-chakra-singing-bowl-set",
+      "category_slug": "chakra-set",
+      "price": 413,
+      "compare_at_price": 590,
+      "rating": 4.9,
+      "review_count": 6,
+      "short_description": "Harmonically balanced 7-chakra bowl set spanning Octave 4 and Octave 5 for bright therapeutic overtones.",
+      "description": "Carefully matched seven-bowl collection spanning Octaves 4 and 5, selected by our Kathmandu sound specialists for pure pitch alignment and effortless rim singing.",
+      "stock_quantity": 7,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 13,
+      "primary_image": "chakra_bowl_set_1794811479723.jpg",
+      "images": [
+        "chakra_bowl_set_1794811479723.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Satin Golden Bronze",
+          "hex": "#C08B45"
+        }
+      ],
+      "sizes": [
+        "7-Bowl Set (Octave 4 & 5)"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Tuning",
+          "value": "Octave 4 & Octave 5 Matched"
+        },
+        {
+          "label": "Includes",
+          "value": "7 Bowls, Cushions & Mallets"
+        }
+      ],
+      "collection_slugs": [
+        "chakra-set",
+        "available-set"
+      ]
+    },
+    {
+      "public_id": "4529889195",
+      "slug": "8-inch-tibetan-prayer-wheel-wall-hanging",
+      "name": "8 inch Tibetan Prayer Wheel Wall Hanging | Handmade Buddhist Meditation Decor Nepal",
+      "etsy_listing_id": "4529889195",
+      "etsy_url": "https://www.etsy.com/listing/4529889195/8-inch-tibetan-prayer-wheel-wall-hanging",
+      "category_slug": "tingsha",
+      "price": 196,
+      "compare_at_price": 280,
+      "rating": 4.9,
+      "review_count": 5,
+      "short_description": "8-inch ornate brass Tibetan wall prayer wheel embossed with Om Mani Padme Hum script and stone inlays.",
+      "description": "Handcrafted in Nepal, this 8-inch wall-mounted Buddhist prayer wheel features an embossed rotating mantra cylinder housing printed mantras, crowned by turquoise and coral stone accents.",
+      "stock_quantity": 6,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 14,
+      "primary_image": "prayer_wheel_tingsha_1794811481045.jpg",
+      "images": [
+        "prayer_wheel_tingsha_1794811481045.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Antique Brass & Turquoise Inlay",
+          "hex": "#B48E4D"
+        }
+      ],
+      "sizes": [
+        "8 Inch Wall Hanging"
+      ],
+      "specifications": [
+        {
+          "label": "Size",
+          "value": "8 Inches"
+        },
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Material",
+          "value": "Embossed Brass, Copper & Wood Handle"
+        },
+        {
+          "label": "Mount",
+          "value": "Wall Hanging Backplate Included"
+        }
+      ],
+      "collection_slugs": [
+        "tingsha",
+        "bell"
+      ]
+    },
+    {
+      "public_id": "4529896622",
+      "slug": "handcrafted-sacred-geometry-gong-from-nepal-40-100cm",
+      "name": "Handcrafted Sacred Geometry Gong from Nepal 40-100cm | Meditation Gong | Sound Healing Instrument",
+      "etsy_listing_id": "4529896622",
+      "etsy_url": "https://www.etsy.com/listing/4529896622/handcrafted-sacred-geometry-gong-from",
+      "category_slug": "gong",
+      "price": 616,
+      "compare_at_price": 880,
+      "rating": 4.8,
+      "review_count": 4,
+      "short_description": "Hand-forged Nepalese bronze gong etched with concentric Sacred Geometry patterns for sound bath rooms.",
+      "description": "Handcrafted in Kathmandu with sacred geometric mandalas etched across the bronze face. Produces rich, enveloping waves of sound suitable for yoga shalas and sound healing sanctuaries.",
+      "stock_quantity": 4,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 15,
+      "primary_image": "himalayan_gong_1794811480154.jpg",
+      "images": [
+        "himalayan_gong_1794811480154.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Dark Patina & Gold Etching",
+          "hex": "#5E4B32"
+        }
+      ],
+      "sizes": [
+        "40 cm",
+        "60 cm",
+        "80 cm"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Diameter Range",
+          "value": "40–100 cm"
+        },
+        {
+          "label": "Design",
+          "value": "Etched Sacred Geometry Mandala"
+        },
+        {
+          "label": "Includes",
+          "value": "Padded Gong Mallet"
+        }
+      ],
+      "collection_slugs": [
+        "gong"
+      ]
+    },
+    {
+      "public_id": "4529881313",
+      "slug": "tree-of-life-seven-chakra-yogi-gong-handmade",
+      "name": "Tree of Life Seven Chakra Yogi Gong | Handmade Nepalese Meditation Gong | Sound Healing Instrument",
+      "etsy_listing_id": "4529881313",
+      "etsy_url": "https://www.etsy.com/listing/4529881313/tree-of-life-seven-chakra-yogi-gong",
+      "category_slug": "gong",
+      "price": 665,
+      "compare_at_price": 950,
+      "rating": 4.9,
+      "review_count": 5,
+      "short_description": "Handmade Nepalese bronze gong uniting Tree of Life & Seven Chakra Yogi artistry with deep acoustic sustain.",
+      "description": "Forged and engraved in Kathmandu with a meditating Yogi within the Tree of Life surrounded by the seven chakra glyphs. Crafted for resonant sound healing and meditative immersion.",
+      "stock_quantity": 4,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 16,
+      "primary_image": "himalayan_gong_1794811480154.jpg",
+      "images": [
+        "himalayan_gong_1794811480154.jpg",
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Obsidian & Burnished Gold",
+          "hex": "#2A241E"
+        }
+      ],
+      "sizes": [
+        "50 cm",
+        "70 cm"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Motif",
+          "value": "Tree of Life & Seven Chakra Yogi"
+        },
+        {
+          "label": "Material",
+          "value": "Hand-Hammered Bronze"
+        },
+        {
+          "label": "Includes",
+          "value": "Felt Mallet & Hanging Strap"
+        }
+      ],
+      "collection_slugs": [
+        "gong",
+        "chakra-set"
+      ]
+    },
+    {
+      "public_id": "4529894645",
+      "slug": "6-inch-tibetan-prayer-wheel-wall-hanging",
+      "name": "6 inch Tibetan Prayer Wheel Wall Hanging | Handmade Buddhist Meditation Decor Nepal",
+      "etsy_listing_id": "4529894645",
+      "etsy_url": "https://www.etsy.com/listing/4529894645/6-inch-tibetan-prayer-wheel-wall-hanging",
+      "category_slug": "tingsha",
+      "price": 154.69,
+      "compare_at_price": 220.99,
+      "rating": 4.8,
+      "review_count": 4,
+      "short_description": "Compact 6-inch handmade Nepalese brass Tibetan prayer wheel wall hanging for meditation corners and home altars.",
+      "description": "Intricately embossed 6-inch brass wall prayer wheel handcrafted in Nepal, filled with traditional mantra scrolls and framed in auspicious Buddhist scrollwork.",
+      "stock_quantity": 9,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 17,
+      "primary_image": "prayer_wheel_tingsha_1794811481045.jpg",
+      "images": [
+        "prayer_wheel_tingsha_1794811481045.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Antique Brass",
+          "hex": "#AE8947"
+        }
+      ],
+      "sizes": [
+        "6 Inch Wall Hanging"
+      ],
+      "specifications": [
+        {
+          "label": "Size",
+          "value": "6 Inches"
+        },
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Material",
+          "value": "Handcrafted Brass & Hardwood"
+        }
+      ],
+      "collection_slugs": [
+        "tingsha",
+        "bell"
+      ]
+    },
+    {
+      "public_id": "4529781819",
+      "slug": "handcrafted-knee-therapy-singing-bowl-nepal",
+      "name": "Handcrafted Knee Therapy Singing Bowl | Handmade in Nepal for Meditation & Reiki",
+      "etsy_listing_id": "4529781819",
+      "etsy_url": "https://www.etsy.com/listing/4529781819/handcrafted-knee-therapy-singing-bowl",
+      "category_slug": "black-bowl",
+      "price": 294.69,
+      "compare_at_price": 420.99,
+      "rating": 4.9,
+      "review_count": 5,
+      "short_description": "Ergonomically shaped Nepalese therapy singing bowl engineered for direct physical vibration & Reiki sessions.",
+      "description": "Specifically proportioned for joint and body-placement sound therapy, especially around knees and shoulders. Its thick hammered walls transfer gentle, sustained physical vibrations directly into tense tissue.",
+      "stock_quantity": 6,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 18,
+      "primary_image": "hero_singing_bowl_1794811478741.jpg",
+      "images": [
+        "hero_singing_bowl_1794811478741.jpg",
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Hammered Raw Bronze",
+          "hex": "#A57B48"
+        }
+      ],
+      "sizes": [
+        "Therapeutic Wide Profile"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Section",
+          "value": "Therapy Bowl"
+        },
+        {
+          "label": "Application",
+          "value": "Direct Body Placement, Reiki & Sound Massage"
+        },
+        {
+          "label": "Includes",
+          "value": "Padded Felt Therapy Mallet"
+        }
+      ],
+      "collection_slugs": [
+        "black-bowl",
+        "therapy-bowl"
+      ]
+    },
+    {
+      "public_id": "4499122012",
+      "slug": "professional-7-chakra-full-moon-dim-singing-bowl-set",
+      "name": "Professional 7 Chakra Full Moon Dim Singing Bowl Set | Nepal Handmade Meditation Instrument",
+      "etsy_listing_id": "4499122012",
+      "etsy_url": "https://www.etsy.com/listing/4499122012/professional-7-chakra-full-moon-dim",
+      "category_slug": "chakra-set",
+      "price": 1036.69,
+      "compare_at_price": 1480.99,
+      "rating": 5,
+      "review_count": 7,
+      "short_description": "Practitioner-grade 7-chakra Full Moon Dim finish singing bowl ensemble tuned for clinical sound healing.",
+      "description": "Our premier Full Moon Dim matte-patina 7-chakra collection, forged by senior Kathmandu smiths for deep acoustic warmth, extended harmonic sustain, and non-glare ceremonial beauty.",
+      "stock_quantity": 3,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 19,
+      "primary_image": "chakra_bowl_set_1794811479723.jpg",
+      "images": [
+        "chakra_bowl_set_1794811479723.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Full Moon Dim Patina",
+          "hex": "#6E5539"
+        }
+      ],
+      "sizes": [
+        "Complete 7-Bowl Pro Set"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Finish",
+          "value": "Full Moon Dim Matte Patina"
+        },
+        {
+          "label": "Tuning",
+          "value": "Matched 7-Chakra Harmonic Set"
+        },
+        {
+          "label": "Includes",
+          "value": "7 Bowls, Cushions & Professional Mallets"
+        }
+      ],
+      "collection_slugs": [
+        "chakra-set",
+        "full-moon-bowl",
+        "dim-bowl"
+      ]
+    },
+    {
+      "public_id": "4574942014",
+      "slug": "black-singing-bowl-with-golden-rim-nepalese",
+      "name": "Black Singing Bowl with Golden Rim | Handmade Nepalese Meditation Bowl | Sound Healing & Yoga",
+      "etsy_listing_id": "4574942014",
+      "etsy_url": "https://www.etsy.com/listing/4574942014/black-singing-bowl-with-golden-rim",
+      "category_slug": "black-bowl",
+      "price": 165.19,
+      "compare_at_price": 235.99,
+      "rating": 4.9,
+      "review_count": 8,
+      "short_description": "Matte oxidized black Himalayan singing bowl finished with a hand-polished golden bronze rim and wooden striker.",
+      "description": "Striking contemporary-meets-traditional contrast: a deep charcoal oxidized exterior paired with a glowing golden-bronze rim. Hand-hammered in Kathmandu for effortless singing resonance.",
+      "stock_quantity": 12,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 20,
+      "primary_image": "black_singing_bowl_1794811481399.jpg",
+      "images": [
+        "black_singing_bowl_1794811481399.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Obsidian Black & Gold Rim",
+          "hex": "#1C1B1A"
+        }
+      ],
+      "sizes": [
+        "5.5 Inch",
+        "6.5 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Finish",
+          "value": "Matte Black with Brushed Golden Rim"
+        },
+        {
+          "label": "Includes",
+          "value": "Wooden Mallet & Silk Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "black-bowl"
+      ]
+    },
+    {
+      "public_id": "4487760346",
+      "slug": "d-note-sacral-chakra-singing-bowl-vam",
+      "name": "D Note Sacral Chakra Singing Bowl – Vam Tibetan Meditation Healing Bowl",
+      "etsy_listing_id": "4487760346",
+      "etsy_url": "https://www.etsy.com/listing/4487760346/d-note-sacral-chakra-singing-bowl-vam",
+      "category_slug": "special-hand-carving",
+      "price": 130.19,
+      "compare_at_price": 185.99,
+      "rating": 4.8,
+      "review_count": 4,
+      "short_description": "Precision D-Note Sacral Chakra singing bowl engraved with the sacred \"Vam\" Bija mantra syllable.",
+      "description": "Individually tested and tuned to the D musical note associated with the Svadhisthana (Sacral) Chakra, featuring the hand-carved Vam seed syllable inside the bowl.",
+      "stock_quantity": 6,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 21,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Antique Bronze",
+          "hex": "#9E7342"
+        }
+      ],
+      "sizes": [
+        "D Note Tuned"
+      ],
+      "specifications": [
+        {
+          "label": "Note",
+          "value": "D Note (Sacral Chakra — Vam)"
+        },
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Includes",
+          "value": "Mallet & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "special-hand-carving",
+        "chakra-set"
+      ]
+    },
+    {
+      "public_id": "4449279702",
+      "slug": "handcrafted-tibetan-singing-bowl-with-yogi-carving",
+      "name": "Handcrafted Tibetan Singing Bowl with Yogi Carving | Sacred Mantra Sound Healing & Meditation Bowl",
+      "etsy_listing_id": "4449279702",
+      "etsy_url": "https://www.etsy.com/listing/4449279702/handcrafted-tibetan-singing-bowl-with",
+      "category_slug": "special-hand-carving",
+      "price": 175,
+      "compare_at_price": 250,
+      "rating": 5,
+      "review_count": 7,
+      "short_description": "Customer-favorite Yogi & Sacred Mantra carved singing bowl praised for \"great sound, long hz\".",
+      "description": "Hand-carved in Kathmandu with intricate Yogi imagery and sacred mantra bands. Verified by sound-healing buyers for its clean harmonic frequency and long sustain.",
+      "stock_quantity": 9,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 22,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Antique Carved Bronze",
+          "hex": "#8E683C"
+        }
+      ],
+      "sizes": [
+        "6 Inch",
+        "7 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Engraving",
+          "value": "Yogi Motif & Sacred Mantra Script"
+        },
+        {
+          "label": "Includes",
+          "value": "Leather-Wrapped Striker & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "special-hand-carving"
+      ]
+    },
+    {
+      "public_id": "4437190428",
+      "slug": "handcrafted-black-singing-bowl-from-nepal",
+      "name": "Handcrafted Black Singing Bowl from Nepal | Meditation, Sound Healing & Chakra Balancing Bowl",
+      "etsy_listing_id": "4437190428",
+      "etsy_url": "https://www.etsy.com/listing/4437190428/handcrafted-black-singing-bowl-from",
+      "category_slug": "black-bowl",
+      "price": 151.19,
+      "compare_at_price": 215.99,
+      "rating": 5,
+      "review_count": 12,
+      "short_description": "Our most reviewed matte-black Nepalese singing bowl, celebrated by verified Etsy buyers for tone and quality.",
+      "description": "Handcrafted in Kathmandu with a velvety dark oxidized finish. Praised repeatedly in verified customer reviews for effortless playability, warm grounding resonance, and careful protective packaging.",
+      "stock_quantity": 14,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 23,
+      "primary_image": "black_singing_bowl_1794811481399.jpg",
+      "images": [
+        "black_singing_bowl_1794811481399.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Obsidian Matte Black",
+          "hex": "#191817"
+        }
+      ],
+      "sizes": [
+        "5.5 Inch",
+        "6.5 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Finish",
+          "value": "Handcrafted Matte Black"
+        },
+        {
+          "label": "Includes",
+          "value": "Wooden Mallet & Ring Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "black-bowl"
+      ]
+    },
+    {
+      "public_id": "4607557241",
+      "slug": "laser-engraved-sahasrabhuja-avalokiteshvara-singing-bowl",
+      "name": "Laser Engraved Sahasrabhuja Avalokiteshvara Singing Bowl, Thousand-Armed Bodhisattva Meditation Bowl",
+      "etsy_listing_id": "4607557241",
+      "etsy_url": "https://www.etsy.com/listing/4607557241/laser-engraved-sahasrabhuja",
+      "category_slug": "special-laser-carving",
+      "price": 335.99,
+      "compare_at_price": 479.99,
+      "rating": 4.9,
+      "review_count": 3,
+      "short_description": "Precision laser-engraved Thousand-Armed Avalokiteshvara Bodhisattva artwork inside a resonant Nepalese bowl.",
+      "description": "Extraordinarily detailed sacred artwork depicting Sahasrabhuja Avalokiteshvara (Thousand-Armed Chenrezig) etched with crisp precision into hand-formed bronze.",
+      "stock_quantity": 5,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 24,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Golden Etched Bronze",
+          "hex": "#B98744"
+        }
+      ],
+      "sizes": [
+        "8 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Engraving",
+          "value": "Fine Laser-Engraved Bodhisattva Iconography"
+        },
+        {
+          "label": "Includes",
+          "value": "Mallet & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "special-laser-carving"
+      ]
+    },
+    {
+      "public_id": "4574885553",
+      "slug": "professional-octave-4-singing-bowl-set-4-7-inch",
+      "name": "Professional Octave 4 Singing Bowl Set 4-7 inch, Nepal Handmade",
+      "etsy_listing_id": "4574885553",
+      "etsy_url": "https://www.etsy.com/listing/4574885553/professional-octave-4-singing-bowl-set",
+      "category_slug": "chakra-set",
+      "price": 476.69,
+      "compare_at_price": 680.99,
+      "rating": 4.8,
+      "review_count": 6,
+      "short_description": "Handmade 4–7 inch Octave 4 singing bowl set crafted in Nepal for balanced harmonic layering.",
+      "description": "Graduated 4-inch to 7-inch handcrafted bronze bowls tuned within Octave 4, ideal for practitioners seeking coherent chordal intervals in compact studio spaces.",
+      "stock_quantity": 5,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 25,
+      "primary_image": "chakra_bowl_set_1794811479723.jpg",
+      "images": [
+        "chakra_bowl_set_1794811479723.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Warm Bronze",
+          "hex": "#A47949"
+        }
+      ],
+      "sizes": [
+        "4–7 Inch Complete Set"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Sizes",
+          "value": "Graduated 4–7 Inch Set"
+        },
+        {
+          "label": "Tuning",
+          "value": "Octave 4 Harmonic Set"
+        },
+        {
+          "label": "Includes",
+          "value": "Cushions & Mallets"
+        }
+      ],
+      "collection_slugs": [
+        "chakra-set",
+        "available-set"
+      ]
+    },
+    {
+      "public_id": "4530428348",
+      "slug": "antique-jam-bati-singing-bowl-vintage",
+      "name": "Antique Jam Bati Singing Bowl – Vintage Meditation & Sound Therapy Instrument",
+      "etsy_listing_id": "4530428348",
+      "etsy_url": "https://www.etsy.com/listing/4530428348/antique-jam-bati-singing-bowl-vintage",
+      "category_slug": "antique-item",
+      "price": 888.99,
+      "compare_at_price": 1269.99,
+      "rating": 5,
+      "review_count": 4,
+      "short_description": "Museum-grade antique Jam Bati singing bowl with sweeping curved walls and deep, singing bass resonance.",
+      "description": "Characterized by its wide, gracefully rounded Jam Bati profile and naturally aged bronze patina. Delivers rich, slow-pulsing overtones prized by collectors and sound therapy practitioners.",
+      "stock_quantity": 2,
+      "source_stock_status": "low_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 26,
+      "primary_image": "hero_singing_bowl_1794811478741.jpg",
+      "images": [
+        "hero_singing_bowl_1794811478741.jpg",
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Vintage Aged Bronze",
+          "hex": "#7D603B"
+        }
+      ],
+      "sizes": [
+        "Collector Large Size"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Himalayan Region / Kathmandu"
+        },
+        {
+          "label": "Style",
+          "value": "Traditional Antique Jam Bati"
+        },
+        {
+          "label": "Material",
+          "value": "Aged Bell Metal Bronze"
+        },
+        {
+          "label": "Includes",
+          "value": "Felt Mallet & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "antique-item",
+        "therapy-bowl"
+      ]
+    },
+    {
+      "public_id": "4529753408",
+      "slug": "handcrafted-black-antique-nipple-gong-60-120cm",
+      "name": "Handcrafted Black Antique Nipple Gong – Meditation, Sound Healing Instrument (60–120 cm)",
+      "etsy_listing_id": "4529753408",
+      "etsy_url": "https://www.etsy.com/listing/4529753408/handcrafted-black-antique-nipple-gong",
+      "category_slug": "gong",
+      "price": 896,
+      "compare_at_price": 1280,
+      "rating": 4.9,
+      "review_count": 5,
+      "short_description": "Large 60–120 cm black antique Himalayan nipple gong with rich low-frequency resonance for temple & studio spaces.",
+      "description": "Available in generous 60 cm to 120 cm diameters, this antique black nipple gong delivers rolling waves of harmonic bass with a bright central boss.",
+      "stock_quantity": 3,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 27,
+      "primary_image": "himalayan_gong_1794811480154.jpg",
+      "images": [
+        "himalayan_gong_1794811480154.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Black Antique & Gold Boss",
+          "hex": "#262320"
+        }
+      ],
+      "sizes": [
+        "60 cm",
+        "80 cm",
+        "100 cm",
+        "120 cm"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Diameter Options",
+          "value": "60 cm – 120 cm"
+        },
+        {
+          "label": "Finish",
+          "value": "Black Antique Hammered Bronze"
+        }
+      ],
+      "collection_slugs": [
+        "gong",
+        "antique-item"
+      ]
+    },
+    {
+      "public_id": "4529388901",
+      "slug": "handmade-black-singing-bowl-set-4-8-inch",
+      "name": "Handmade Black Singing Bowl Set 4–8 Inch | Nepal Meditation & Sound Healing",
+      "etsy_listing_id": "4529388901",
+      "etsy_url": "https://www.etsy.com/listing/4529388901/handmade-black-singing-bowl-set-4-8-inch",
+      "category_slug": "chakra-set",
+      "price": 686,
+      "compare_at_price": 980,
+      "rating": 4.9,
+      "review_count": 4,
+      "short_description": "Matched 4–8 inch matte black Nepalese singing bowl set crafted for cohesive group sound healing.",
+      "description": "A unified graduated set spanning 4 to 8 inches in oxidized black finish with golden-toned rims. Hand-selected for harmonic compatibility.",
+      "stock_quantity": 4,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 28,
+      "primary_image": "black_singing_bowl_1794811481399.jpg",
+      "images": [
+        "black_singing_bowl_1794811481399.jpg",
+        "chakra_bowl_set_1794811479723.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Matte Black & Gold Rim",
+          "hex": "#1E1D1C"
+        }
+      ],
+      "sizes": [
+        "4–8 Inch Set"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Sizes",
+          "value": "4 to 8 Inch Matched Set"
+        },
+        {
+          "label": "Finish",
+          "value": "Oxidized Black Bronze"
+        }
+      ],
+      "collection_slugs": [
+        "chakra-set",
+        "black-bowl",
+        "available-set"
+      ]
+    },
+    {
+      "public_id": "4529179983",
+      "slug": "handcrafted-10-inch-full-moon-singing-bowl-c-note",
+      "name": "Handcrafted 10 inch Full Moon Singing Bowl | C Note, Nepal Meditation, Sound Healing",
+      "etsy_listing_id": "4529179983",
+      "etsy_url": "https://www.etsy.com/listing/4529179983/handcrafted-10-inch-full-moon-singing",
+      "category_slug": "full-moon-bowl",
+      "price": 245.69,
+      "compare_at_price": 350.99,
+      "rating": 5,
+      "review_count": 7,
+      "short_description": "Generous 10-inch Full Moon bowl tuned to Root Chakra C Note with profound sustain and warm bronze gleam.",
+      "description": "Forged during the full moon in Nepal and tuned to C Note (Root Chakra). Its 10-inch diameter generates resonant low harmonics ideal for grounding breathwork and meditation.",
+      "stock_quantity": 5,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 29,
+      "primary_image": "hero_singing_bowl_1794811478741.jpg",
+      "images": [
+        "hero_singing_bowl_1794811478741.jpg",
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Full Moon Golden Bronze",
+          "hex": "#B48448"
+        }
+      ],
+      "sizes": [
+        "10 Inch (C Note)"
+      ],
+      "specifications": [
+        {
+          "label": "Diameter",
+          "value": "10 Inches (25.4 cm)"
+        },
+        {
+          "label": "Note",
+          "value": "C Note (Root Chakra)"
+        },
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Includes",
+          "value": "Felt Mallet, Wooden Striker & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "full-moon-bowl"
+      ]
+    },
+    {
+      "public_id": "4529413860",
+      "slug": "tree-of-life-hand-engraved-singing-bowl-nepal",
+      "name": "Tree of Life Hand Engraved Singing Bowl | Handmade in Nepal | Meditation & Sound Healing",
+      "etsy_listing_id": "4529413860",
+      "etsy_url": "https://www.etsy.com/listing/4529413860/tree-of-life-hand-engraved-singing-bowl",
+      "category_slug": "special-hand-carving",
+      "price": 171.5,
+      "compare_at_price": 245,
+      "rating": 4.8,
+      "review_count": 5,
+      "short_description": "Hand-engraved Tree of Life medallion etched inside an authentic Nepalese hammered bronze singing bowl.",
+      "description": "Symbolizing interconnection, growth, and grounding, the Tree of Life is carefully hand-engraved by Nepalese craftsmen across this balanced meditation bowl.",
+      "stock_quantity": 8,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 30,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Burnished Bronze",
+          "hex": "#A97C47"
+        }
+      ],
+      "sizes": [
+        "6 Inch",
+        "7 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Engraving",
+          "value": "Hand-Engraved Tree of Life"
+        },
+        {
+          "label": "Includes",
+          "value": "Wooden Striker & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "special-hand-carving"
+      ]
+    },
+    {
+      "public_id": "4528832913",
+      "slug": "free-bag-and-tingsha-seven-chakra-singing-bowl-set",
+      "name": "Free Bag and Tingsha | Seven Chakra Singing Bowl Set | Professional Crafted Sound Healing Kit",
+      "etsy_listing_id": "4528832913",
+      "etsy_url": "https://www.etsy.com/listing/4528832913/free-bag-and-tingsha-seven-chakra",
+      "category_slug": "chakra-set",
+      "price": 1680,
+      "compare_at_price": 2400,
+      "rating": 5,
+      "review_count": 4,
+      "short_description": "Complete master practitioner 7-chakra healing kit with complimentary travel bag and Tibetan Tingsha cymbals.",
+      "description": "Our flagship professional sound healing kit featuring seven matched Nepalese bowls, complimentary protective carrying bag, and traditional mantra-carved Tingsha cymbals.",
+      "stock_quantity": 3,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 31,
+      "primary_image": "chakra_bowl_set_1794811479723.jpg",
+      "images": [
+        "chakra_bowl_set_1794811479723.jpg",
+        "prayer_wheel_tingsha_1794811481045.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Master Craftsman Bronze",
+          "hex": "#9D7344"
+        }
+      ],
+      "sizes": [
+        "Complete Pro Kit (7 Bowls + Bag + Tingsha)"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Bonus Included",
+          "value": "Free Padded Bag & Tibetan Tingsha Cymbals"
+        },
+        {
+          "label": "Material",
+          "value": "Seven-Metal Hand-Hammered Bronze"
+        }
+      ],
+      "collection_slugs": [
+        "chakra-set",
+        "available-set"
+      ]
+    },
+    {
+      "public_id": "4527196726",
+      "slug": "hand-painted-tibetan-singing-bowl-om-shiva-parvati",
+      "name": "Hand Painted Tibetan Singing Bowl with Om Symbols and Shiva Parvati Design",
+      "etsy_listing_id": "4527196726",
+      "etsy_url": "https://www.etsy.com/listing/4527196726/hand-painted-tibetan-singing-bowl-with",
+      "category_slug": "special-laser-carving",
+      "price": 335.99,
+      "compare_at_price": 479.99,
+      "rating": 4.9,
+      "review_count": 3,
+      "short_description": "Sacred Thangka-inspired hand-painted Shiva Parvati and Om motif inside a resonant Tibetan singing bowl.",
+      "description": "Painted by Kathmandu Thangka artists with mineral pigments depicting Shiva Parvati and sacred Om syllables across the basin.",
+      "stock_quantity": 4,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": true,
+      "is_active": true,
+      "sort_order": 32,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Thangka Mineral Pigment & Bronze",
+          "hex": "#B46927"
+        }
+      ],
+      "sizes": [
+        "8 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Section",
+          "value": "Thangka Bowl"
+        },
+        {
+          "label": "Artwork",
+          "value": "Hand-Painted Om & Shiva Parvati"
+        }
+      ],
+      "collection_slugs": [
+        "special-laser-carving",
+        "thangka-bowl",
+        "thangka"
+      ]
+    },
+    {
+      "public_id": "4528201166",
+      "slug": "10-inch-handmade-nepalese-singing-bowl-meditation",
+      "name": "10 inch Handmade Nepalese Singing Bowl, Meditation, Yoga, Sound Healing",
+      "etsy_listing_id": "4528201166",
+      "etsy_url": "https://www.etsy.com/listing/4528201166/10-inch-handmade-nepalese-singing-bowl",
+      "category_slug": "full-moon-bowl",
+      "price": 298.19,
+      "compare_at_price": 425.99,
+      "rating": 4.9,
+      "review_count": 5,
+      "short_description": "Classic 10-inch hand-hammered Nepalese singing bowl tuned for studio yoga, breathwork, and deep meditation.",
+      "description": "Handcrafted in Kathmandu with unmistakable hammer dimples and clean resonance. Large enough for prolonged harmonic bloom in yoga studios.",
+      "stock_quantity": 6,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 33,
+      "primary_image": "hero_singing_bowl_1794811478741.jpg",
+      "images": [
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Classic Hammered Bronze",
+          "hex": "#AA7D46"
+        }
+      ],
+      "sizes": [
+        "10 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Diameter",
+          "value": "10 Inches (25.4 cm)"
+        },
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Includes",
+          "value": "Felt Mallet & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "full-moon-bowl",
+        "explore-our-collection"
+      ]
+    },
+    {
+      "public_id": "4527966157",
+      "slug": "handmade-nepalese-singing-bowl-chakra-therapy-gift",
+      "name": "Handmade Nepalese Singing Bowl for Meditation, Yoga and Sound Healing | Chakra Therapy Gift",
+      "etsy_listing_id": "4527966157",
+      "etsy_url": "https://www.etsy.com/listing/4527966157/handmade-nepalese-singing-bowl-for",
+      "category_slug": "full-moon-bowl",
+      "price": 266.69,
+      "compare_at_price": 380.99,
+      "rating": 4.8,
+      "review_count": 4,
+      "short_description": "Gift-ready handcrafted Nepalese chakra singing bowl complete with cushion and striker for mindful rituals.",
+      "description": "A thoughtful spiritual gift handcrafted in Nepal for yoga teachers, healers, and mindfulness beginners alike.",
+      "stock_quantity": 8,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 34,
+      "primary_image": "hero_singing_bowl_1794811478741.jpg",
+      "images": [
+        "hero_singing_bowl_1794811478741.jpg",
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Warm Natural Bronze",
+          "hex": "#B28449"
+        }
+      ],
+      "sizes": [
+        "8.5 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Finish",
+          "value": "Hand-Hammered Natural Bronze"
+        },
+        {
+          "label": "Includes",
+          "value": "Wooden Striker & Embroidered Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "full-moon-bowl",
+        "explore-our-collection"
+      ]
+    },
+    {
+      "public_id": "4527970210",
+      "slug": "antique-cobre-bati-singing-bowl-vintage",
+      "name": "Antique Cobre Bati Singing Bowl – Vintage Meditation & Sound Therapy Instrument",
+      "etsy_listing_id": "4527970210",
+      "etsy_url": "https://www.etsy.com/listing/4527970210/antique-cobre-bati-singing-bowl-vintage",
+      "category_slug": "antique-item",
+      "price": 301.69,
+      "compare_at_price": 430.99,
+      "rating": 4.9,
+      "review_count": 3,
+      "short_description": "Vintage Cobre Bati profile with rich copper-bronze warmth and distinctive grounded sustain.",
+      "description": "Traditional Cobre Bati antique singing bowl prized for its warm copper-rich alloy resonance and subtle hand-forged markings.",
+      "stock_quantity": 2,
+      "source_stock_status": "low_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 35,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg",
+        "hero_singing_bowl_1794811478741.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Aged Copper Bronze",
+          "hex": "#8F5A38"
+        }
+      ],
+      "sizes": [
+        "7.5 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Nepal"
+        },
+        {
+          "label": "Style",
+          "value": "Antique Cobre Bati"
+        },
+        {
+          "label": "Includes",
+          "value": "Striker & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "antique-item"
+      ]
+    },
+    {
+      "public_id": "4526520945",
+      "slug": "hand-painted-tibetan-singing-bowl-vajrasattav-yab-yum-thangka",
+      "name": "Hand Painted Tibetan Singing Bowl Nepal | Vajrasattav Yab Yum Thangka Art",
+      "etsy_listing_id": "4526520945",
+      "etsy_url": "https://www.etsy.com/listing/4526520945/hand-painted-tibetan-singing-bowl-nepal",
+      "category_slug": "special-laser-carving",
+      "price": 328.99,
+      "compare_at_price": 469.99,
+      "rating": 4.9,
+      "review_count": 4,
+      "short_description": "Hand-painted Vajrasattva Yab Yum Tibetan Thangka artwork inside a resonant Nepalese singing bowl.",
+      "description": "Combining sacred Kathmandu Thangka painting with traditional metalworking, this bowl depicts Vajrasattva Yab Yum surrounded by lotus petals.",
+      "stock_quantity": 3,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 36,
+      "primary_image": "carved_buddha_bowl_1794811479865.jpg",
+      "images": [
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Thangka Crimson & Gold",
+          "hex": "#9E472A"
+        }
+      ],
+      "sizes": [
+        "8 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Section",
+          "value": "Thangka Bowl"
+        },
+        {
+          "label": "Artwork",
+          "value": "Vajrasattva Yab Yum Thangka"
+        }
+      ],
+      "collection_slugs": [
+        "special-laser-carving",
+        "thangka-bowl",
+        "thangka"
+      ]
+    },
+    {
+      "public_id": "4525895450",
+      "slug": "d-scale-handpan-drum-9-notes-handcrafted-steel",
+      "name": "D Scale Handpan Drum 9 Notes | Handcrafted Steel Instrument | Meditation, Sound Healing & Yoga",
+      "etsy_listing_id": "4525895450",
+      "etsy_url": "https://www.etsy.com/listing/4525895450/d-scale-handpan-drum-9-notes-handcrafted",
+      "category_slug": "gong",
+      "price": 1596,
+      "compare_at_price": 2280,
+      "rating": 5,
+      "review_count": 4,
+      "short_description": "Hand-tuned 9-note D Minor Kurd steel handpan drum for melodic sound journeys, yoga & meditative concerts.",
+      "description": "Precision-dimpled and heat-treated 9-note D Scale steel handpan drum delivering ethereal harmonic overtones and responsive fingertip resonance.",
+      "stock_quantity": 3,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 37,
+      "primary_image": "himalayan_gong_1794811480154.jpg",
+      "images": [
+        "himalayan_gong_1794811480154.jpg",
+        "black_singing_bowl_1794811481399.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Burnished Gunmetal Bronze",
+          "hex": "#433C35"
+        }
+      ],
+      "sizes": [
+        "22 Inch / 9 Notes"
+      ],
+      "specifications": [
+        {
+          "label": "Scale",
+          "value": "D Scale (9 Tuned Notes)"
+        },
+        {
+          "label": "Material",
+          "value": "Nitrided Handcrafted Steel"
+        },
+        {
+          "label": "Includes",
+          "value": "Padded Soft Backpack Case"
+        }
+      ],
+      "collection_slugs": [
+        "gong",
+        "explore-our-collection"
+      ]
+    },
+    {
+      "public_id": "4522608936",
+      "slug": "handcrafted-chao-gong-with-deity-design-40-100cm",
+      "name": "Handcrafted Chao Gong with Deity Design – Meditation, Sound Healing Instrument (40–100 cm)",
+      "etsy_listing_id": "4522608936",
+      "etsy_url": "https://www.etsy.com/listing/4522608936/handcrafted-chao-gong-with-deity-design",
+      "category_slug": "gong",
+      "price": 598.5,
+      "compare_at_price": 855,
+      "rating": 4.9,
+      "review_count": 5,
+      "short_description": "Traditional handcrafted Chao Gong engraved with protective Himalayan deity motifs in sizes 40 to 100 cm.",
+      "description": "A dramatic meditation and sound-bath gong featuring sacred deity iconography set against dark forged outer rings and luminous bronze center.",
+      "stock_quantity": 4,
+      "source_stock_status": "in_stock",
+      "is_bestseller": false,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 38,
+      "primary_image": "himalayan_gong_1794811480154.jpg",
+      "images": [
+        "himalayan_gong_1794811480154.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Charcoal Rim & Bronze Center",
+          "hex": "#3B342D"
+        }
+      ],
+      "sizes": [
+        "40 cm",
+        "60 cm",
+        "80 cm",
+        "100 cm"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Diameter Range",
+          "value": "40–100 cm"
+        },
+        {
+          "label": "Artwork",
+          "value": "Engraved Himalayan Deity"
+        },
+        {
+          "label": "Includes",
+          "value": "Padded Mallet"
+        }
+      ],
+      "collection_slugs": [
+        "gong"
+      ]
+    },
+    {
+      "public_id": "4520893199",
+      "slug": "handcrafted-ultabati-singing-bowl-deep-resonant-tones",
+      "name": "Handcrafted Ultabati Singing Bowl – Deep, Resonant Tones for Meditation, Sound Healing & Spiritual Wellness",
+      "etsy_listing_id": "4520893199",
+      "etsy_url": "https://www.etsy.com/listing/4520893199/handcrafted-ultabati-singing-bowl-deep",
+      "category_slug": "black-bowl",
+      "price": 280,
+      "compare_at_price": 400,
+      "rating": 5,
+      "review_count": 6,
+      "short_description": "Traditional inverted-lip Ultabati singing bowl celebrated by buyers for deep tones and great quality.",
+      "description": "Forged in Kathmandu in the authentic Ultabati inward-turned rim geometry that traps and projects rich harmonic sustain. Rated 5 stars for its fast shipping and resonant quality.",
+      "stock_quantity": 5,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 39,
+      "primary_image": "hero_singing_bowl_1794811478741.jpg",
+      "images": [
+        "hero_singing_bowl_1794811478741.jpg",
+        "black_singing_bowl_1794811481399.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Hammered Antique Bronze",
+          "hex": "#8F6A3B"
+        }
+      ],
+      "sizes": [
+        "8 Inch Ultabati"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Section",
+          "value": "Ultapati Bowl"
+        },
+        {
+          "label": "Profile",
+          "value": "Inward-Curved Rim Ultabati"
+        },
+        {
+          "label": "Includes",
+          "value": "Striker & Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "black-bowl",
+        "ultapati-bowl"
+      ]
+    },
+    {
+      "public_id": "4437179736",
+      "slug": "tibetan-mantra-carving-tingsha-from-nepal",
+      "name": "Tibetan Mantra Carving Tingsha from Nepal | Meditation, Yoga & Energy Cleansing Cymbals",
+      "etsy_listing_id": "4437179736",
+      "etsy_url": "https://www.etsy.com/listing/4437179736/tibetan-mantra-carving-tingsha-from",
+      "category_slug": "tingsha",
+      "price": 49,
+      "compare_at_price": 70,
+      "rating": 5,
+      "review_count": 7,
+      "short_description": "Hand-cast Tibetan bronze Tingsha cymbals carved with Om Mani Padme Hum for crisp room clearing and yoga openings.",
+      "description": "Joined by a durable leather cord, these matching Tibetan cymbals chime together in a crystalline overtone that opens and closes meditation sessions with calm clarity.",
+      "stock_quantity": 16,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 40,
+      "primary_image": "prayer_wheel_tingsha_1794811481045.jpg",
+      "images": [
+        "prayer_wheel_tingsha_1794811481045.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Antique Cast Brass",
+          "hex": "#B48E4D"
+        }
+      ],
+      "sizes": [
+        "Standard 6.5 cm Pair"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Diameter",
+          "value": "6.5 cm (Heavy Cast Bronze)"
+        },
+        {
+          "label": "Engraving",
+          "value": "Om Mani Padme Hum / Eight Auspicious Symbols"
+        }
+      ],
+      "collection_slugs": [
+        "tingsha"
+      ]
+    },
+    {
+      "public_id": "4437003611",
+      "slug": "full-moon-singing-bowl-from-nepal-handcrafted",
+      "name": "Full Moon Singing Bowl from Nepal | Handcrafted Meditation & Sound Healing Bowl",
+      "etsy_listing_id": "4437003611",
+      "etsy_url": "https://www.etsy.com/listing/4437003611/full-moon-singing-bowl-from-nepal",
+      "category_slug": "full-moon-bowl",
+      "price": 210,
+      "compare_at_price": 300,
+      "rating": 5,
+      "review_count": 9,
+      "short_description": "Signature Nepalese Full Moon singing bowl hammered during the full moon cycle for radiant sound and healing clarity.",
+      "description": "Stamped with the sacred full moon emblem and crafted exclusively on full moon nights in Kathmandu. Praised by buyers for its \"beautiful sound and great quality\".",
+      "stock_quantity": 6,
+      "source_stock_status": "in_stock",
+      "is_bestseller": true,
+      "is_new_arrival": false,
+      "is_active": true,
+      "sort_order": 41,
+      "primary_image": "hero_singing_bowl_1794811478741.jpg",
+      "images": [
+        "hero_singing_bowl_1794811478741.jpg",
+        "carved_buddha_bowl_1794811479865.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Full Moon Golden Bronze",
+          "hex": "#B98744"
+        }
+      ],
+      "sizes": [
+        "7.5 Inch",
+        "9 Inch"
+      ],
+      "specifications": [
+        {
+          "label": "Origin",
+          "value": "Kathmandu, Nepal"
+        },
+        {
+          "label": "Craft",
+          "value": "Full Moon Ritual Seven-Metal Bronze"
+        },
+        {
+          "label": "Includes",
+          "value": "Suede Striker & Silk Cushion"
+        }
+      ],
+      "collection_slugs": [
+        "full-moon-bowl"
+      ]
+    }
+  ]
+}
